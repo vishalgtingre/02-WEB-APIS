@@ -6,7 +6,7 @@ from .models import Product,Manufacturer
 
 class ProductDetailView(DetailView):
     model = Product
-    template_name = "products/prodcut_detail.html"
+    template_name = "products/product_detail.html"
 
 class ProductListView(ListView):
     model = Product
